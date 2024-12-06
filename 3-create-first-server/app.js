@@ -6,6 +6,7 @@ const http = require('http');
 
 function serverListener(req,res){
   console.log(req);
+  // process.exit();
 }
 
 // under fucntion returns a obj and that can be used to listen
